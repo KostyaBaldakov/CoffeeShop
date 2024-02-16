@@ -1,0 +1,394 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Cedarville+Cursive&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+.conteiner {
+  width: 1192px;
+  margin: 0 auto;
+}
+
+.header {
+  margin-bottom: 40px;
+  padding-top: 39px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 90px;
+  margin-right: 57px;
+  font-family: "Josefin Slab", serif;
+  font-weight: bold;
+  text-wrap: nowrap;
+  margin-left: auto;
+}
+
+menu li {
+  color: #000000;
+  list-style-type: none;
+  font-size: 16px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  font-family: "Cedarville Cursive", cursive;
+  font-size: 32px;
+  /* width: 400px; */
+  font-weight: normal;
+  margin-right: 288px;
+}
+
+menu a {
+  color: black;
+  text-decoration: none;
+}
+
+.contactBtn {
+  background: #2d635e;
+  color: #ffffff;
+  font-family: "Josefin Sans", sans-serif;
+  width: 135px;
+  height: 43px;
+  border-radius: 10px;
+  border: 0px;
+  margin-left: auto;
+}
+
+.sectionCard {
+  display: flex;
+  margin-bottom: 197px;
+}
+
+.mainBtn {
+  background: #2d635e;
+  color: #ffffff;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  width: 235px;
+  height: 54px;
+  /* margin-top: 26px; */
+  border-radius: 5px;
+  border: 0px;
+}
+
+.mainTitle {
+  margin-right: 145px;
+}
+
+.mainTitle h4 {
+  font-family: "Cedarville Cursive", cursive;
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 26px;
+  margin-top: 158px;
+}
+
+.mainTitle h1 {
+  font-family: "Josefin Slab", serif;
+  font-size: 63px;
+  font-weight: 700;
+  letter-spacing: 0.1px;
+  margin-bottom: 26px;
+}
+
+.mainImg {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: relative;
+}
+
+.mainRectangle {
+  position: relative;
+}
+
+.backgrondOfArrow {
+  position: relative;
+  width: 159px;
+  height: 157px;
+  background: #e3ebe7;
+  color: #000000;
+  opacity: 0.4;
+}
+
+.arrowRight {
+  width: 26px;
+  height: 6px;
+  position: absolute;
+  top: 78px;
+  left: 67px;
+}
+
+.backgroundOfCoffeeMachine {
+  size: 28px;
+  width: 410px;
+  height: 466px;
+  background: #e3ebe7;
+}
+
+.coffeeMachine {
+  position: absolute;
+  top: 140px;
+  left: 39px;
+}
+
+.social {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  gap: 14px;
+  margin-left: auto;
+}
+
+.social li:last-child h3 {
+  font-family: "Josefin Slab", serif;
+  font-weight: 700;
+  font-size: 28px;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
+.baristaCustomer {
+  display: flex;
+  margin-bottom: 160px;
+}
+
+.wrapperCup {
+  position: relative;
+}
+
+.backgrondOfCup {
+  width: 380px;
+  height: 287px;
+  background: #fae9e0;
+  margin-right: 103px;
+}
+
+.cup {
+  position: absolute;
+  top: 78px;
+  left: 28px;
+}
+
+.aboutUs {
+  font-family: "Cedarville Cursive", cursive;
+  font-weight: 400;
+  font-size: 28px;
+  position: absolute;
+  top: -24px;
+  right: 445px;
+  height: 116px;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+}
+
+.heading {
+  font-family: "Josefin Slab", serif;
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+.text {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  letter-spacing: 0.1px;
+  line-height: 36px;
+  margin-bottom: 15px;
+}
+
+.americanoCoffee {
+  display: flex;
+}
+
+.wrapperCoffeeDay {
+  margin-right: 103px;
+}
+
+.info {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  letter-spacing: 0.1px;
+  line-height: 36px;
+  margin-bottom: 25px;
+}
+
+.wrapperGlass {
+  position: relative;
+  margin-bottom: 80px;
+}
+
+.backgrondOfGlass {
+  width: 410px;
+  height: 276px;
+  background: #e3ebe7;
+}
+
+.glass {
+  position: absolute;
+  top: -30px;
+  left: 72px;
+  right: 102px;
+}
+
+.promotion {
+  position: absolute;
+  top: -26px;
+  left: 387px;
+}
+
+.possibleOrders {
+  background: rgba(45, 99, 94, 0.05);
+  padding-top: 48px;
+  padding-bottom: 44px;
+  margin-bottom: 131px;
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.allCards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+  gap: 30px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 458px;
+  border-radius: 25px;
+  background: #ffffff;
+  padding: 45px 62px 47px 54px;
+  box-shadow: 0px 23px 34px 0px rgba(35, 57, 55, 0.17);
+}
+
+.subtitle {
+  font-family: "Josefin Slab", serif;
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+
+.desc {
+  text-align: center;
+  line-height: 36px;
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  color: #444a4a;
+  letter-spacing: 0.1px;
+  flex-grow: 1;
+}
+
+.btnFirstCard {
+  background: #2d635e;
+  color: #ffffff;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  width: 235px;
+  height: 54px;
+  border-radius: 5px;
+  border: 0px;
+}
+
+.navigation {
+  display: flex;
+  margin-bottom: 114px;
+}
+
+.map {
+  position: relative;
+  background-image: url("img/map.svg");
+  width: 646px;
+  height: 351px;
+  border-radius: 5px;
+  margin-right: 42px;
+  bottom: 25px;
+}
+
+.contacts {
+  position: absolute;
+  top: -21px;
+  right: 0px;
+}
+
+.more {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.more li {
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+  color: #444a4a;
+}
+
+.address {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  margin-bottom: 35px;
+}
+
+.line {
+  margin-right: 32px;
+}
+
+.footer h5 {
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+  text-align: center;
+  color: #444a4a;
+  padding-bottom: 20px;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+}
+
+
